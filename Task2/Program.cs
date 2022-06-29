@@ -5,11 +5,11 @@ int numberB = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число C");
 int numberC = Convert.ToInt32(Console.ReadLine());
 int max = numberA;
-if(max < numberB)
+if(numberB > max)
 {
     max = numberB;
 }
-if(max < numberC)
+if(numberC > max )
 {
     max = numberC;
 }
